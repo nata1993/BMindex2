@@ -1,0 +1,11 @@
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\bin\Debug\netcoreapp2.1\BMindex2.deps.json
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\bin\Debug\netcoreapp2.1\BMindex2.runtimeconfig.json
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\bin\Debug\netcoreapp2.1\BMindex2.runtimeconfig.dev.json
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\bin\Debug\netcoreapp2.1\BMindex2.dll
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\bin\Debug\netcoreapp2.1\BMindex2.pdb
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.csprojAssemblyReference.cache
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.csproj.CoreCompileInputs.cache
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.AssemblyInfoInputs.cache
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.AssemblyInfo.cs
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.dll
+C:\Users\Kebo\Desktop\Kool\programmeerimine\BMindex2\BMindex2\BMindex2\obj\Debug\netcoreapp2.1\BMindex2.pdb
