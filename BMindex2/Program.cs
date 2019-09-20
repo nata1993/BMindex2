@@ -101,7 +101,6 @@ namespace BMIcalculator2
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
-                    Console.ReadLine();
                 }
             }
             Console.ReadLine();
