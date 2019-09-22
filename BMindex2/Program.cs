@@ -6,11 +6,10 @@ namespace BMIcalculator2
     {
         static void Main()
         {
-            float height;       //height is represented in meters with decimal point
-            int weight;         //weight is usually way below 255 kg hence byte is used because of conserving memory
+            double height, BMInew;      //height is represented in meters with decimal point, BMInew according to "new" BMI calculating formula
+            int weight;                 //weight is usually way below 255 kg hence byte is used because of conserving memory
             string fullName;
-            byte age;           //human does not live over 255 years hence byte is used because of conserving memory 
-            double BMInew;      //BMI according to "new" BMI calculating formula
+            byte age;                   //human does not live over 255 years hence byte is used because of conserving memory 
 
             //introduction
             Console.WriteLine("Hello! This is Body Mass Index (BMI) calculator. Insert your height and your weight");
@@ -55,7 +54,7 @@ namespace BMIcalculator2
                 Console.WriteLine("However, this is according to old calculation method.");
                 Console.WriteLine("By new calculation method, your BMI is calculated with formula below.");
                 Console.WriteLine("BMI = 1.3 * (weight / (height) by the power of 2.5)");
-                BMInew = Math.Round(1.3 * weight / (Math.Pow(height, 2.5)), 2);                                        //calculating BMI according to new formula
+                BMInew = Math.Round(1.3 * weight / (Math.Pow(height, 2.5)), 2);                         //calculating BMI according to new formula
                 Console.WriteLine();
                 Console.WriteLine($"Your BMI according to new calculating formula is: {BMInew}");       //Math.Round rounds float number to two decimal points
                 Console.WriteLine("It may differ from old formula calculation but it also may not.");
