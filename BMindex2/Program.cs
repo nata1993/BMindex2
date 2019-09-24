@@ -26,14 +26,14 @@ namespace BMIcalculator2
 
             if (age < 20 || age > 65)
             {
-                if (age < 20)                   //if age is smaller than 20, runs information about underage and does not run calculator
+                if(age < 20)                   //if age is smaller than 20, runs information about underage and does not run calculator
                 {
                     Console.WriteLine($"Your age is {age}. I am sorry to inform you but you are underaged to partake in this BMI calculating test.");
                     Console.WriteLine("You must be at least 20 years old for calculator to calculate ACCURATELY your BMI.");
                     Console.WriteLine("This calculator calculates most accurately BMI if you are in the age of between 20 to 65");
                 }
 
-                else if (age > 65)              //if age is over 65, runs information about overage and does not run calculator
+                else if(age > 65)              //if age is over 65, runs information about overage and does not run calculator
                 {
                     Console.WriteLine($"Your age is {age}. I am sorry to inform you but you are overaged to partake in this BMI calculating test.");
                     Console.WriteLine("You must be not more than 65 years old for calculator to calculate ACCURATELY your BMI.");
@@ -66,40 +66,40 @@ namespace BMIcalculator2
                     Console.WriteLine("NB! Your BMI is way below acceptable limits. You must see your doctor because your life is in danger!");
                 }
 
-                if (BMInew >= 16 && BMInew < 18.5)
+                else if(BMInew >= 16 && BMInew < 18.5)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is low, you are underweighted. You must see your doctor because you might have some healt issues.");
                 }
 
-                if (BMInew >= 18.6 && BMInew < 25)
+                else if (BMInew >= 18.6 && BMInew < 25)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is normal and you are not under nor overweighted.");
                 }
 
-                if (BMInew >= 25.1 && BMInew < 30)
+                else if (BMInew >= 25.1 && BMInew < 30)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("NB! Your BMI is not good and you are little overweighted.");
+                        Console.WriteLine();
+                        Console.WriteLine("NB! Your BMI is not good and you are little overweighted.");
                 }
 
-                if (BMInew >= 30.1 && BMInew < 35)
+                else if (BMInew >= 30.1 && BMInew < 35)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("NB! Your BMI is bad. You are overweighted.");
+                        Console.WriteLine();
+                        Console.WriteLine("NB! Your BMI is bad. You are overweighted.");
                 }
 
-                if (BMInew >= 35.1 && BMInew < 40)
+                else if (BMInew >= 35.1 && BMInew < 40)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("NB! Your BMI is high, you are severely overweighted.");
+                        Console.WriteLine();
+                        Console.WriteLine("NB! Your BMI is high, you are severely overweighted.");
                 }
 
-                if (BMInew > 40.1)
+                else if (BMInew > 40.1)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
+                        Console.WriteLine();
+                        Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
                 }
             }
             Console.ReadLine();
