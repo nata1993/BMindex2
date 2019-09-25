@@ -41,7 +41,7 @@ namespace BMIcalculator2
                 }
             }
 
-            if (age >= 20 && age <= 65)
+            else
             {
                 Console.WriteLine("Thank you. Now, please insert your height in meters.");
                 height = float.Parse(Console.ReadLine());       //Converting inserted height string in meters into decimal floating point number
@@ -66,7 +66,7 @@ namespace BMIcalculator2
                     Console.WriteLine("NB! Your BMI is way below acceptable limits. You must see your doctor because your life is in danger!");
                 }
 
-                else if(BMInew >= 16 && BMInew < 18.5)
+                else if (BMInew >= 16 && BMInew < 18.5)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is low, you are underweighted. You must see your doctor because you might have some healt issues.");
@@ -80,23 +80,23 @@ namespace BMIcalculator2
 
                 else if (BMInew >= 25.1 && BMInew < 30)
                 {
-                        Console.WriteLine();
-                        Console.WriteLine("NB! Your BMI is not good and you are little overweighted.");
+                    Console.WriteLine();
+                    Console.WriteLine("NB! Your BMI is not good and you are little overweighted.");
                 }
 
                 else if (BMInew >= 30.1 && BMInew < 35)
                 {
-                        Console.WriteLine();
-                        Console.WriteLine("NB! Your BMI is bad. You are overweighted.");
+                    Console.WriteLine();
+                    Console.WriteLine("NB! Your BMI is bad. You are overweighted.");
                 }
 
                 else if (BMInew >= 35.1 && BMInew < 40)
                 {
-                        Console.WriteLine();
-                        Console.WriteLine("NB! Your BMI is high, you are severely overweighted.");
+                    Console.WriteLine();
+                    Console.WriteLine("NB! Your BMI is high, you are severely overweighted.");
                 }
 
-                else if (BMInew > 40.1)
+                else
                 {
                         Console.WriteLine();
                         Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
