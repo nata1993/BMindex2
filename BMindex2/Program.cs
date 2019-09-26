@@ -66,31 +66,31 @@ namespace BMIcalculator2
                     Console.WriteLine("NB! Your BMI is way below acceptable limits. You must see your doctor because your life is in danger!");
                 }
 
-                else if (BMInew >= 16 && BMInew < 18.5)
+                else if ( BMInew < 18.5)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is low, you are underweighted. You must see your doctor because you might have some healt issues.");
                 }
 
-                else if (BMInew >= 18.6 && BMInew < 25)
+                else if (BMInew < 25)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is normal and you are not under nor overweighted.");
                 }
 
-                else if (BMInew >= 25.1 && BMInew < 30)
+                else if (BMInew < 30)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is not good and you are little overweighted.");
                 }
 
-                else if (BMInew >= 30.1 && BMInew < 35)
+                else if (BMInew < 35)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is bad. You are overweighted.");
                 }
 
-                else if (BMInew >= 35.1 && BMInew < 40)
+                else if (BMInew < 40)
                 {
                     Console.WriteLine();
                     Console.WriteLine("NB! Your BMI is high, you are severely overweighted.");
