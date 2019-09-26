@@ -33,7 +33,7 @@ namespace BMIcalculator2
                     Console.WriteLine("This calculator calculates most accurately BMI if you are in the age of between 20 to 65");
                 }
 
-                else if(age > 65)              //if age is over 65, runs information about overage and does not run calculator
+                else              //if age is over 65, runs information about overage and does not run calculator
                 {
                     Console.WriteLine($"Your age is {age}. I am sorry to inform you but you are overaged to partake in this BMI calculating test.");
                     Console.WriteLine("You must be not more than 65 years old for calculator to calculate ACCURATELY your BMI.");
