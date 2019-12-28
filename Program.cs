@@ -26,7 +26,7 @@ namespace BMIcalculator2
 
             if (age < 20 || age > 65)
             {
-                if(age < 20)                   //if age is smaller than 20, runs information about underage and does not run calculator
+                if (age < 20)                   //if age is smaller than 20, runs information about underage and does not run calculator
                 {
                     Console.WriteLine($"Your age is {age}. I am sorry to inform you but you are underaged to partake in this BMI calculating test.");
                     Console.WriteLine("You must be at least 20 years old for calculator to calculate ACCURATELY your BMI.");
@@ -98,8 +98,8 @@ namespace BMIcalculator2
 
                 else
                 {
-                        Console.WriteLine();
-                        Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
+                    Console.WriteLine();
+                    Console.WriteLine("NB! Your BMI is too high. Your life is in danged because of overweight. Please consult with your doctor on this matter.");
                 }
             }
             Console.ReadLine();
